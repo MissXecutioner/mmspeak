@@ -76,6 +76,5 @@ exec_script_external build_tomcrypt.sh tomcrypt "tommath_path=`pwd`/tommath/out/
 exec_script_external build_yamlcpp.sh yaml-cpp
 exec_script_external build_jemalloc.sh jemalloc
 exec_script_external build_zstd.sh zstd
-
 #Log the result
 end_task "build_third_party" "Build all libraries successfully"
